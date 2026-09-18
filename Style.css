@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-roilan {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: red;
+}
+
+.imagen-roilan img {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
